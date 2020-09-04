@@ -338,3 +338,19 @@ footer{
 
 }*/
 }
+@media (max-width: 640px)
+{
+
+.navigate a{
+    display:none; 
+}
+
+}
+@media (max-width: 320px)
+{
+.pqr{
+
+display: none;
+
+}
+}
