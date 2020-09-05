@@ -10,7 +10,6 @@
     background-image: url('images/abc.jpg');
     height: 100vh;
     width: 100%;
-    position: relative;
     background-size: cover;
 }
 nav{
@@ -91,23 +90,10 @@ background-color:rgb(62, 62, 185);
 
 }
 .right img{
-
-    
-
 border-radius: 500px;
 box-shadow: 2px 2px 4px black;
 max-width: 100%;
-height: auto; 
-                                                                                         
-    
-}
-.box h1 {
-
-text-decoration: underline;
-padding: 10px 10px 10px 10px;
-width: auto;
-font-size: 2rem;
-
+height: auto;    
 }
 .box h2{
    
@@ -116,16 +102,8 @@ font-size: 2rem;
     
 }
 .box{
-    padding: 10px 10px 10px 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+   
     background: rgba(206, 34, 34, 0.2);
-    border-radius: 20px;
-    width: 100%;
-    justify-content: center;
-    height: auto;
-    align-content: center;
-    align-items: center;
 }
 .box p{
  
@@ -139,26 +117,7 @@ font-size: 2rem;
     padding: 10px 10px 10px 10px;
 }
 .intro{
-    
-    padding: 10px 10px 10px 10px;
-    margin-top: 10px;
-    margin-bottom: 10px; 
     background: rgba(18, 221, 45, 0.2);
-    border-radius: 20px;
-    width: 100%;
-    justify-content: center;
-    height: auto;
-    align-content: center;
-    align-items: center;
-}
-.intro h1 {
-
-    text-decoration: underline;
-    padding: 10px 10px 10px 10px;
-    width: auto;
-    font-size: 2rem;
-    align-content: center;
-   
 }
 .intro p{
  
@@ -170,13 +129,12 @@ font-size: 2rem;
     display: flex;
     
 }
-.certi{
 
-   
+#common{
+
     padding: 10px 10px 10px 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: rgba(17, 103, 201, 0.2);
     border-radius: 20px;
     width: 100%;
     justify-content: center;
@@ -185,12 +143,20 @@ font-size: 2rem;
     align-items: center;
     
 }
-.cert{
+.certi
+{
+    text-decoration: underline;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    font-size: 1rem;
+    align-content: center;
+    background: rgba(17, 103, 201, 0.2);}
 
-display: flex;
-justify-content: space-evenly;
-padding-top: 10px;
-}
+.cert{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;}
+
 .cert img:hover{
 
     transform:scale(2);
@@ -198,13 +164,29 @@ padding-top: 10px;
     box-shadow: 2px 2px 2px black ;
     
 }
-.certifates h1{
-
+.intro h1{
     text-decoration: underline;
     padding: 10px 10px 10px 10px;
     width: auto;
-    display: flex;
     font-size: 2rem;
+    align-content: center;
+
+}
+.certi h1{
+    text-decoration: underline;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    font-size: 2rem;
+    align-content: center;
+
+}
+.box h1
+{
+    text-decoration: underline;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    font-size: 2rem;
+    align-content: center;
 }
 footer{
 
@@ -269,16 +251,6 @@ footer{
 
 @media (max-width:768px)
 {
-    
-/*.left{
-    padding-left:5%;
-    margin-left: 5%;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    box-sizing: border-box;
-}*/
     .both{
         flex-direction: column;
         justify-content: center;
@@ -294,11 +266,8 @@ footer{
         height: 70%;
         margin-bottom: 50px;
         margin-left: 20%;
-            }
-/*
-.right{
-    display: none;
-}*/
+  }
+
 .two h2{
     display: none   ;
 }
